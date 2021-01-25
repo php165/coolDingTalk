@@ -1,0 +1,24 @@
+{
+    "name": "cool/ding",
+    "description": "this is cool ding",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thinkPad-myj",
+            "email": "815081410@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ding\\": "ding/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "test\\": "test/"
+        }
+    },
+    "require": {}
+}
